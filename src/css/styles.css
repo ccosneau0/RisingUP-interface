@@ -1,0 +1,131 @@
+@import './reset.css';
+
+html {
+  font-family: roboto, sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 7.5vh;
+}
+
+.header__logo {
+  width: 4vw;
+  height: 2.335vw;
+  margin-top: 1.418vw;
+}
+
+.header__dashboard {
+  width: 10.842vw;
+  display: flex;
+  margin-left: 7.339vw;
+}
+
+.dashboard {
+  margin: auto;
+}
+
+.header__progress {
+  width: 18.849vw;
+  display: flex;
+}
+
+.progress {
+  margin: auto;
+}
+
+.is-active {
+  background-color: #434559;
+  color: white;
+}
+
+.header__account {
+  margin-left: 25.021vw;
+  display: flex;
+}
+
+.account__picture {
+  width: 1.251vw;
+  height: 2.314vh;
+  margin: auto;
+}
+
+.account__name {
+  margin: auto;
+  margin-left: 0.834vw;
+}
+
+.news {
+  width: 100vw;
+  height: 38vh;
+  color: white;
+  background-size: 100vw 38vh;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/img/montagne_filtreBleu.png');
+}
+
+.news__name {
+  font-size: 2rem;
+  padding-top: 7.308vh;
+  
+}
+
+.news__content {
+  margin-top: 2.1vh;
+}
+
+.margin-left {
+  margin-left: 7vw;
+}
+
+.news__points {
+  margin-top: 3.654vh;
+}
+
+.news__point {
+  margin-top: 2.436vh;
+  font-size: 0.9rem
+}
+
+.separation {
+  height: 6.5vh;
+  background-color: yellow;
+  display: flex;
+}
+
+.button__book {
+  height: 3.752vh;
+  margin: auto 0 auto 7vw;
+}
+
+.book__title {
+  margin: auto 1.501vw;
+}
+
+.button__slider {
+  width: 10.008vw;
+  height: 0.609;
+  margin: auto 0px auto 11.676vw;
+}
+
+.button__search {
+  height: 3.752vh;
+  margin: auto 0 auto 8.340vw;
+}
+
+.search__title {
+  margin: auto 1.501vw;
+}
+
+.experience {
+  width: 45vw;
+  height: 52vh;
+  background-image: url('../../assets/img/plasma.png');
+  background-repeat: no-repeat;
+  background-size: 45vw 23vh;
+  color: white;
+}
+
+.experience__title {
+  font-size: 1.3rem;
+}
