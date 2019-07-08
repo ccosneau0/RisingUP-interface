@@ -10,7 +10,7 @@ html {
 }
 
 .header__logo {
-  width: 3.5vw;
+  width: 3.3vw;
   height: 2.335vw;
   margin-top: 1.15vw;
 }
@@ -40,7 +40,7 @@ html {
 }
 
 .header__account {
-  margin-left: 25.021vw;
+  margin-left: 34vw;
   display: flex;
 }
 
@@ -89,7 +89,6 @@ html {
 
 .separation {
   height: 6.5vh;
-  background-color: yellow;
   display: flex;
 }
 
@@ -110,7 +109,7 @@ html {
 
 .button__search {
   height: 3.752vh;
-  margin: auto 0 auto 8.340vw;
+  margin: auto 0 auto 10vw;
 }
 
 .search__title {
@@ -118,12 +117,14 @@ html {
 }
 
 .article {
-  width: 45vw;
+  width: 53vw;
   height: 23vh;
   background-image: url('../../assets/img/plasma.png');
   background-repeat: no-repeat;
-  background-size: 45vw 23vh;
+  background-size: 55vw 23vh;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .article__tags {
@@ -132,20 +133,100 @@ html {
   height: 3vh;
   border-width: 0.5vw;
   border-radius: 20%;
+  display: flex;
+  margin-top: 3.5vh;
+}
+
+.tags__name {
+  font-size: 10px;
+  margin: auto;
 }
 
 .article__title {
-  font-size: 1.3rem;
+  font-size: 22px;
+  margin-left: 7vw;
+  margin-top: 1.5vh;
+  width: 38vw;
+}
+
+.article__author {
+  font-size: 10px;
+  margin-top: 1.5vh;
 }
 
 .experience {
   background-image: url('../../assets/img/fond_article.png');
-  background-size: 45vw 25vh;
-  width: 45vw;
+  background-size: 53vw 25vh;
+  width: 53vw;
   height: 25vh;
   color: white;
 }
 
 .experience__title {
-  padding-top: 2.7vh;
+  padding-top: 4vh;
+}
+
+.experience__bar {
+  width: 41vw;
+  height: 2vh;
+  background-color: white;
+  border-radius: 2px;
+  margin-top: 2.6vh;
+}
+
+.experience__play {
+  width: 12vw;
+  height: 4.5vh;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  margin-top: 4vh;
+  border-radius: 2px;
+}
+
+.cards {
+  width: 47vw;
+  height: 48vh;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3vw;
+}
+
+.card {
+  width: 12.710vw;
+  height: 35.322vh;
+  background-color: aliceblue;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card__picture {
+  width: 12.710vw;
+  height: 21vh;
+}
+
+.experience__training {
+  font-size: 10px;
+  margin-left: 20.3vw;
+}
+
+.card__title {
+  font-size: 12px;
+  margin-left: 1.5vw;
+  margin-top: 1.8vh;
+}
+
+.card__more {
+  margin-left: 1.5vw;
+  margin-top: 3.5vh;
+}
+
+.more__title {
+  font-size: 10px;
+  vertical-align: text-top;
 }
