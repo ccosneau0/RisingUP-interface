@@ -44,6 +44,18 @@ html {
   display: flex;
 }
 
+.header__profile {
+  margin: auto;
+  display: flex; 
+  background-color: blue;
+  width: 3;
+  height: 5;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 2px 15px #979797;
+  -webkit-box-shadow: 0px 2px 15px #979797;
+  box-shadow: 0px 2px 15px #979797;
+}
+
 .account__picture {
   width: 1.251vw;
   height: 2.314vh;
@@ -90,6 +102,9 @@ html {
 .separation {
   height: 6.5vh;
   display: flex;
+  -moz-box-shadow: 0px 2px 15px #979797;
+  -webkit-box-shadow: 0px 2px 15px #979797;
+  box-shadow: 0px 2px 15px #979797;
 }
 
 .button__book {
@@ -200,9 +215,12 @@ html {
 .card {
   width: 12.710vw;
   height: 35.322vh;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 8px;
   overflow: hidden;
+  -moz-box-shadow: 0px 2px 15px #979797;
+  -webkit-box-shadow: 0px 2px 15px #979797;
+  box-shadow: 0px 2px 15px #979797;
 }
 
 .card__picture {
