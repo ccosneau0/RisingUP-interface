@@ -10,9 +10,9 @@ html {
 }
 
 .header__logo {
-  width: 4vw;
+  width: 3.5vw;
   height: 2.335vw;
-  margin-top: 1.418vw;
+  margin-top: 1.15vw;
 }
 
 .header__dashboard {
@@ -117,15 +117,35 @@ html {
   margin: auto 1.501vw;
 }
 
-.experience {
+.article {
   width: 45vw;
-  height: 52vh;
+  height: 23vh;
   background-image: url('../../assets/img/plasma.png');
   background-repeat: no-repeat;
   background-size: 45vw 23vh;
   color: white;
 }
 
-.experience__title {
+.article__tags {
+  background-color: rgba(142, 18, 252, 0.4);
+  width: 7vw;
+  height: 3vh;
+  border-width: 0.5vw;
+  border-radius: 20%;
+}
+
+.article__title {
   font-size: 1.3rem;
+}
+
+.experience {
+  background-image: url('../../assets/img/fond_article.png');
+  background-size: 45vw 25vh;
+  width: 45vw;
+  height: 25vh;
+  color: white;
+}
+
+.experience__title {
+  padding-top: 2.7vh;
 }
