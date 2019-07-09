@@ -1,0 +1,128 @@
+.main {
+  width: 100vw;
+  height: 92.5vh;
+  background-image: url('../../assets/img/montagne_filtreBleu.png');
+  background-size: 100vw 92.6vh;
+  background-repeat: no-repeat;
+}
+
+.class__title {
+  color: white;
+  font-size: 34px;
+  padding-top: 6vh;
+}
+
+.class__search {
+  margin-top: 3vh;
+  width: 17vw;
+  height: 4vh;
+  color: white;
+  background-color: transparent;
+  border: solid 1px #d8d8d8;
+}
+
+.class__search::placeholder {
+  color: white;
+  padding-left: 1.5vw;
+}
+
+.wallets {
+  width: 100vw;
+  height: 55vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wallet {
+  width: 25vw;
+  height: 55vh;
+  border-radius: 6px;
+  overflow: hidden;
+  
+}
+
+.wallet--one {
+  background-image: linear-gradient(-25deg, rgba(115, 73, 160, 0.7), rgba(10, 6, 67, 0.7));
+}
+
+.wallet--two {
+  background-image: linear-gradient(-25deg, rgba(255, 213, 17, 0.7), rgba(255, 33, 17, 0.7));
+}
+
+.wallet--three {
+  background-image: linear-gradient(-25deg, rgba(0, 230, 123, 0.7), rgba(3, 101, 15, 0.7));
+}
+
+.wallet__picture {
+  width: 25vw;
+  height: 20vh;
+}
+
+.wallet__content {
+  color: white;
+}
+
+.content__tag {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 10px;
+  width: 11vw;
+  height: 2.4vh;
+  margin-left: 2vw;
+  margin-top: 1.2vh;
+  display: flex;
+  border-radius: 15px;
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+}
+
+.tag__text {
+  margin: auto;
+}
+
+.content__title {
+  margin-left: 2vw;
+  margin-top: 1.5vh;
+  font-size: 14px;
+}
+
+.content__text {
+  font-size: 10px;
+  margin-left: 2vw;
+  margin-top: 1.5vh;
+  line-height: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.content__author {
+  margin-left: 2vw;
+  margin-top: 1.6vh;
+  font-size: 10px;
+  color: rgba(164, 164, 164, 0.7);
+}
+
+.content__like {
+  background-color: transparent;
+  width: 4vw;
+  margin-left: 2vw;
+  margin-top: -0.5vh;
+}
+
+.wallet__button {
+  margin-left: 2vw;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  width: 12vw;
+  height: 3.5vh;
+}
+
+.wallets__back {
+  background-color: rgba(229, 229, 229, 0.3);
+  border: none;
+  border-radius: 2px;
+  height: 3.8vh;
+  width: 9vw;
+  color: white;
+  margin-left: 84.75vw;
+  margin-top: 2vh;
+  font-size: 14px;
+}

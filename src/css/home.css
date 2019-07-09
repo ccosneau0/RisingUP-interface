@@ -1,0 +1,263 @@
+html {
+  font-family: 'circular', sans-serif;
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  height: 7.5vh;
+}
+
+.header__logo {
+  width: 3.3vw;
+  height: 2.335vw;
+  margin-top: 1.15vw;
+}
+
+.header__dashboard {
+  width: 10.842vw;
+  display: flex;
+  margin-left: 7.339vw;
+  font-size: 12px;
+}
+
+.dashboard {
+  margin: auto;
+}
+
+.header__progress {
+  width: 18.849vw;
+  display: flex;
+  font-size: 12px;
+}
+
+.progress {
+  margin: auto;
+}
+
+.is-active {
+  background-color: #434559;
+  color: white;
+}
+
+.header__account {
+  margin-left: 34vw;
+  display: flex;
+}
+
+.account__picture {
+  height: 3.6vh;
+  width: 3vw;
+  margin: auto;
+  -moz-box-shadow: 0px 2px 7px #979797;
+  -webkit-box-shadow: 0px 2px 7px #979797;
+  box-shadow: 0px 2px 7px #979797;
+  border-radius: 5px;
+}
+
+.account__name {
+  margin: auto;
+  margin-left: 0.834vw;
+  font-size: 12px;
+}
+
+.news {
+  width: 100vw;
+  height: 38vh;
+  color: white;
+  background-size: 100vw 38vh;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/img/montagne_filtreBleu.png');
+}
+
+.news__name {
+  font-size: 2rem;
+  padding-top: 7.308vh;
+  
+}
+
+.news__badge {
+  position: absolute;
+  right: 8vw;
+  top: 17vh;
+  font-size: 14px;
+  color: white;
+}
+
+.badge__border {
+  position: absolute;
+  right: 8vw;
+  top: 19.8vh;
+}
+
+.news__content {
+  margin-top: 2.1vh;
+}
+
+.margin-left {
+  margin-left: 7vw;
+}
+
+.news__points {
+  margin-top: 3.654vh;
+}
+
+.news__point {
+  margin-top: 2.436vh;
+  font-size: 0.9rem
+}
+
+.separation {
+  height: 6.5vh;
+  display: flex;
+  -moz-box-shadow: 0px 2px 15px #979797;
+  -webkit-box-shadow: 0px 2px 15px #979797;
+  box-shadow: 0px 2px 15px #979797;
+}
+
+.button__book {
+  height: 3.752vh;
+  margin: auto 0 auto 7vw;
+}
+
+.book__title {
+  margin: auto 1.501vw;
+}
+
+.button__slider {
+  width: 10.008vw;
+  height: 0.609;
+  margin-top: -1.8vh;
+  margin-left: 11.676vw;
+}
+
+.button__search {
+  height: 3.752vh;
+  margin: auto 0 auto 10vw;
+}
+
+.search__title {
+  margin: auto 1.501vw;
+}
+
+.article {
+  width: 51vw;
+  height: 23vh;
+  background-image: url('../../assets/img/plasma.png');
+  background-repeat: no-repeat;
+  background-size: 55vw 23vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.article__tags {
+  background-color: rgba(142, 18, 252, 0.4);
+  width: 7vw;
+  height: 3vh;
+  border-width: 0.5vw;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 3.5vh;
+}
+
+.tags__name {
+  font-size: 10px;
+  margin: auto;
+}
+
+.article__title {
+  font-size: 22px;
+  margin-left: 7vw;
+  margin-top: 1.5vh;
+  width: 38vw;
+}
+
+.article__author {
+  font-size: 10px;
+  margin-top: 1.5vh;
+}
+
+.experience {
+  background-image: url('../../assets/img/fond_article.png');
+  background-size: 53vw 25vh;
+  width: 51vw;
+  height: 25vh;
+  color: white;
+}
+
+.experience__title {
+  padding-top: 4vh;
+}
+
+.experience__bar {
+  width: 40vw;
+  height: 2vh;
+  background-color: white;
+  border-radius: 2px;
+  margin-top: 2.6vh;
+}
+
+.experience__play {
+  width: 12vw;
+  height: 4.5vh;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  margin-top: 4vh;
+  border-radius: 2px;
+}
+
+.experience__training {
+  font-size: 10px;
+  margin-left: 19.25vw;
+}
+
+.cards {
+  width: 49vw;
+  height: 48vh;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3vw;
+}
+
+.card {
+  width: 13.710vw;
+  height: 35.322vh;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  -moz-box-shadow: 0px 2px 15px #979797;
+  -webkit-box-shadow: 0px 2px 15px #979797;
+  box-shadow: 0px 2px 15px #979797;
+}
+
+.card__picture {
+  width: 13.710vw;
+  height: 23vh;
+}
+
+
+.card__title {
+  font-size: 12px;
+  margin-left: 1.5vw;
+  margin-top: 1.8vh;
+}
+
+.card__more {
+  margin-left: 1.5vw;
+  margin-top: 3.4vh;
+
+}
+
+.more__title {
+  font-size: 10px;
+  vertical-align: text-top;
+  margin-left: 1vw;
+  vertical-align: center;
+}
