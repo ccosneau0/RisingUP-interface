@@ -19,11 +19,11 @@
   color: white;
   background-color: transparent;
   border: solid 1px #d8d8d8;
+  text-indent: 1.5vw;
 }
 
 .class__search::placeholder {
-  color: white;
-  padding-left: 1.5vw;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .wallets {
@@ -83,6 +83,7 @@
   margin-left: 2vw;
   margin-top: 1.5vh;
   font-size: 14px;
+  color: rgba(248, 248, 248, 1);
 }
 
 .content__text {
@@ -90,14 +91,15 @@
   margin-left: 2vw;
   margin-top: 1.5vh;
   line-height: 1.2rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(248, 248, 248, 0.8);
+  width: 22vw;
 }
 
 .content__author {
   margin-left: 2vw;
   margin-top: 1.6vh;
   font-size: 10px;
-  color: rgba(164, 164, 164, 0.7);
+  color: rgba(248, 248, 248, 0.7);
 }
 
 .content__like {
