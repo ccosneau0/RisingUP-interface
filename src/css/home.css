@@ -1,5 +1,5 @@
 html {
-  font-family: 'circular', sans-serif;
+  font-family: "Circular", sans-serif;
   font-weight: normal;
 }
 
@@ -90,6 +90,32 @@ html {
   top: 19.8vh;
 }
 
+.badges {
+  position: absolute;
+  right: 8vw;
+  top: 21vh;
+  display: flex;
+}
+
+
+.badges__background {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(151, 151, 151, 0.4);
+  border-radius: 50%;
+  display: flex;
+  margin-left: 1vw;
+}
+
+.badge {
+  width: 3vw;
+  margin: auto;
+}
+
+.badge--hight {
+  width: 2vw;
+}
+
 .news__content {
   margin-top: 2.1vh;
 }
@@ -100,6 +126,12 @@ html {
 
 .news__points {
   margin-top: 3.654vh;
+}
+
+.news__point::before {
+  content: url('../../assets/img/puce_li.svg');
+  margin-right: 1.5vw;
+  margin-top: 0.3vw;
 }
 
 .news__point {
