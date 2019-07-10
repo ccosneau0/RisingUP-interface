@@ -1,5 +1,5 @@
 body {
-  font-family: 'Circular' !important;
+  font-family: 'Circular';
   font-weight: normal;
 }
 
@@ -80,7 +80,7 @@ body {
 .news__badge {
   position: absolute;
   right: 8vw;
-  top: 17vh;
+  top: 16.5vh;
   font-size: 14px;
   color: white;
 }
@@ -88,13 +88,13 @@ body {
 .badge__border {
   position: absolute;
   right: 8vw;
-  top: 19.8vh;
+  top: 19.3vh;
 }
 
 .badges {
   position: absolute;
   right: 8vw;
-  top: 21vh;
+  top: 20.5vh;
   display: flex;
 }
 

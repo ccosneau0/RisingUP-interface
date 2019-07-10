@@ -64,7 +64,7 @@
 }
 
 .content__tag {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 10px;
   width: 11vw;
   height: 2.4vh;
@@ -72,7 +72,8 @@
   margin-top: 1.2vh;
   display: flex;
   border-radius: 15px;
-  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  border: solid 0.5px rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 .tag__text {
@@ -114,7 +115,9 @@
   background-color: rgba(255, 255, 255, 0.3);
   border: none;
   width: 12vw;
-  height: 3.5vh;
+  height: 4vh;
+  border-radius: 1px;
+  color: white;
 }
 
 .wallets__back {

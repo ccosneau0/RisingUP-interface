@@ -1,0 +1,166 @@
+@font-face {
+	font-family: "circular";
+	src: url("./fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: normal;
+}
+
+body {
+	background: url("../../assets/img/background-connexion.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	list-style: none;
+	height: 12.180vh;
+}
+
+.nav li {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: -0.14px;
+	font-family: 'circular';
+}
+
+.nav__one {
+	display: flex;
+	width: 35vw;
+	justify-content: space-between;
+	margin-right: 18%;
+}
+
+.nav__two {
+	display: flex;
+	width: 3.472vw;
+	justify-content: space-around;
+}
+
+.nav__two img {
+	width: 0.694vw;
+	height: 1.218;
+	margin-top: 1px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 85vh;
+	
+}
+
+.background {
+	background-color: white;
+	width: 28vw;
+	height: 46vh;
+	box-shadow: 0px 16px 47px rgba(0, 0, 0, 0.23555);
+	border-radius: 6px;
+}
+
+.logo__noir {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 12.180vh;
+}
+
+.logo--mini {
+	width: 5vw;
+}
+
+.logo__rs {
+	width: 5vw;
+}
+
+.text__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 74%;
+	justify-content: space-around;
+}
+
+.input {
+	width: 18vw;
+	height: 4.872vh;
+	text-indent: 1vw;
+}
+
+.account__label {
+	margin-bottom: 0.609vh;
+}
+
+.account__password {
+	margin-bottom: 0.609vh;
+}
+
+.account label {
+	font-size: 12px;
+	letter-spacing: 0.44px;
+	color: #101D35;
+}
+
+.password label {
+	font-size: 12px;
+	letter-spacing: 0.44px;
+	color: #101D35;
+}
+
+.button__connexion {
+	width: 14vw;
+	height: 4.872vh;
+	margin-bottom: 10px;
+	border: solid 2px;
+	border-image-source: linear-gradient(45deg, rgb(247, 0, 0), rgb(102, 208, 233), rgb(179, 255, 127), rgb(217, 184, 60), rgb(251, 121, 0));
+  border-image-slice: 1;
+}
+
+.container__button p {
+	text-align: center;
+	font-size: 10px;
+}
+
+.text {
+	color: white;
+	font-size: 38px;
+}
+
+.discover {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 86%;
+	left: 45%;
+}
+
+.discover__text {
+	color: white;
+	font-size: 19px;
+}
+
+.discover__picture {
+	margin-top: 3vh;
+}
+
+
+.discover img {
+	width: 0.903vw;
+	height: 3.654vh;
+}
+
+.text__title {
+	width: 50vw;
+	line-height: 1.4em;
+	word-spacing: 0.25em;
+}
+
+.grey--orange {
+	background-color: rgba(109, 109, 109, 1);
+	color: rgb(241, 139, 43);
+	border-radius: 1px;
+}

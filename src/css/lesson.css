@@ -1,0 +1,141 @@
+.lesson__summary {
+  width: 36vw;
+  height: 57vh;
+  background-image: linear-gradient(-25deg, rgba(10, 6, 67, 0.7), rgba(115, 73, 160, 0.7));
+  border-radius: 6px;
+  margin-top: 12.5vh;
+  float: left;
+  overflow: hidden;
+}
+
+.summary__picture {
+  width: 36vw;
+  height: 21vh;
+  object-fit: cover;
+}
+
+.summary__content {
+  width: 33vw;
+  margin-left: 2vw;
+  margin-top: 1.5vh;
+  color: rgba(248, 248, 248, 0.8);
+  font-size: 12px;
+  line-height: 1.2rem;
+}
+
+.summary__button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  width: 12vw;
+  height: 4vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  border-radius: 1px;
+  color: white;
+}
+
+.lesson__skills {
+  width: 40vw;
+  margin-top: 12.5vh;
+  margin-left: 48vw;
+  color: white;
+}
+
+.skills__title {
+  font-size: 26px;
+}
+
+.skills__text {
+  font-size: 14px;
+  margin-top: 2.4vh;
+  line-height: 2rem;
+  width: 46vw;
+  color: rgba(248, 248, 248, 0.8);
+}
+
+.skills__experience {
+  font-size: 10px;
+  margin-top: 3.8vh;
+  color: rgba(248, 248, 248, 0.9);
+}
+
+.skills__level {
+  background-color: rgba(248, 248, 248, 0.4);
+  height: 1vh;
+  width: 44vw;
+  margin-top: 2vh;
+  border-radius: 2px;
+}
+
+.picto__dotBurger {
+  margin-top: 5vh;
+  float: left;
+}
+
+.dotBurger__title {
+  font-size: 10px;
+  margin-top: 5vh;
+  margin-left: 0.8vw;
+  float: left;
+}
+
+.picto__burger {
+  margin-top: 5vh;
+  margin-left: 3.5vw;
+  float: left;
+  margin-right: 0.8vw;
+}
+
+.burger__title {
+  font-size: 10px;
+  margin-top: 5vh;
+}
+
+.dotBurger__content {
+  font-size: 10px;
+  margin-top: 1.5vh;
+  float: left;
+  margin-right: 4.45vw;
+}
+
+.burger__content {
+  font-size: 10px;
+  margin-top: 1.5vh;
+}
+
+.picto__clock {
+  margin-top: 3vh;
+  float: left;
+}
+
+.clock__title {
+  font-size: 10px;
+  float: left;
+  margin-top: 3vh;
+  margin-left: 0.8vw;
+  margin-right: 5.2vw;
+}
+
+
+.picto__dotClock {
+  margin-top: 3vh;
+  float: left;
+  margin-right: 0.8vw;
+}
+
+.dotClock__title {
+  font-size: 10px;
+  margin-top: 3vh;
+}
+
+.clock__content {
+  font-size: 10px;
+  margin-top: 3vh;
+  float: left;
+  margin-right: 7.68vw;
+}
+
+.dotClock__content {
+  font-size: 10px;
+  margin-top: 3vh;
+}
