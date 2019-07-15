@@ -74,7 +74,7 @@ body {
 .news__name {
   font-size: 2rem;
   padding-top: 7.308vh;
-  
+
 }
 
 .news__badge {
@@ -249,7 +249,7 @@ body {
 }
 
 .experience__training {
-  font-size: 10px;
+  font-size: 0.625rem;
   margin-left: 19.25vw;
 }
 
@@ -278,12 +278,14 @@ body {
 }
 
 .card__picture {
-  width: 13.710vw;
+  width: 13.71vw;
   height: 23vh;
 }
 
 
 .card__title {
+  /* text-align: center; */
+  width: 10.71vw;
   font-size: 12px;
   margin-left: 1.5vw;
   margin-top: 1.8vh;
@@ -291,7 +293,7 @@ body {
 
 .card__more {
   margin-left: 1.5vw;
-  margin-top: 3.4vh;
+  margin-top: 3.3vh;
 
 }
 
