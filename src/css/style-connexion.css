@@ -5,6 +5,7 @@
 }
 
 .body {
+	font-family: 'Circular', sans-serif;
 	background: url("../../assets/img/background-connexion.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
@@ -23,7 +24,6 @@
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: -0.14px;
-	font-family: 'circular';
 }
 
 .nav__one {
@@ -50,7 +50,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	height: 85vh;
-	
+
 }
 
 .background {
@@ -115,7 +115,7 @@
 	height: 4.872vh;
 	margin-bottom: 10px;
 	border: solid 2px;
-	border-image-source: linear-gradient(45deg, rgb(247, 0, 0), rgb(102, 208, 233), rgb(179, 255, 127), rgb(217, 184, 60), rgb(251, 121, 0));
+	border-image-source: linear-gradient(160deg, rgb(253, 216, 106), rgb(253, 216, 106), rgb(176, 220, 122), rgb(51, 249, 240), rgb(96, 157, 229), rgb(251, 18, 190), rgb(251, 18, 190));
   border-image-slice: 1;
 }
 

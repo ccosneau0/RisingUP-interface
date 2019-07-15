@@ -1,5 +1,5 @@
 body {
-  font-family: 'Circular';
+  font-family: 'Circular', sans-serif;
   font-weight: normal;
 }
 
@@ -309,7 +309,6 @@ body {
 
 
 .card__title {
-  /* text-align: center; */
   width: 13vw;
   font-size: 0.75rem;
   margin-left: 2vw;
