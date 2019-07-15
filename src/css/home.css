@@ -54,12 +54,34 @@ body {
   -webkit-box-shadow: 0px 2px 7px #979797;
   box-shadow: 0px 2px 7px #979797;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .account__name {
   margin: auto;
   margin-left: 0.834vw;
   font-size: 12px;
+}
+
+.account__picto {
+  margin: auto;
+  width: 0.7vw;
+  margin-left: 1vw;
+}
+
+.account__info {
+  position: absolute;
+  top: 6.5vh;
+  right: 5.5vw;
+  -moz-box-shadow: 0px 0px 15px #979797;
+  -webkit-box-shadow: 0px 0px 15px #979797;
+  box-shadow: 0px 0px 15px #979797;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.account--none {
+  display: none;
 }
 
 .news {
@@ -74,7 +96,7 @@ body {
 .news__name {
   font-size: 2rem;
   padding-top: 7.308vh;
-
+  font-weight: bold;
 }
 
 .news__badge {
@@ -119,6 +141,7 @@ body {
 
 .news__content {
   margin-top: 2.1vh;
+  font-weight: lighter;
 }
 
 .margin-left {
@@ -147,6 +170,7 @@ body {
   -webkit-box-shadow: 0px 2px 15px #979797;
   box-shadow: 0px 2px 15px #979797;
   background-color: white;
+  align-items: center;
 }
 
 .button__book {
@@ -161,7 +185,6 @@ body {
 .button__slider {
   width: 10.008vw;
   height: 0.609;
-  margin-top: -1.8vh;
   margin-left: 11.676vw;
 }
 
@@ -210,6 +233,7 @@ body {
 .article__author {
   font-size: 10px;
   margin-top: 1.5vh;
+  font-weight: lighter;
 }
 
 .experience {
@@ -251,6 +275,7 @@ body {
 .experience__training {
   font-size: 0.625rem;
   margin-left: 19.25vw;
+  font-weight: lighter;
 }
 
 .cards {
@@ -267,7 +292,7 @@ body {
 }
 
 .card {
-  width: 13.710vw;
+  width: 18vw;
   height: 35.322vh;
   background-color: white;
   border-radius: 8px;
@@ -278,28 +303,32 @@ body {
 }
 
 .card__picture {
-  width: 13.71vw;
+  width: 18vw;
   height: 23vh;
 }
 
 
 .card__title {
   /* text-align: center; */
-  width: 10.71vw;
-  font-size: 12px;
-  margin-left: 1.5vw;
+  width: 13vw;
+  font-size: 0.75rem;
+  margin-left: 2vw;
   margin-top: 1.8vh;
 }
 
 .card__more {
-  margin-left: 1.5vw;
-  margin-top: 3.3vh;
+  margin-left: 2vw;
+  margin-top: 2.5vh;
+  font-size: 12px;
+}
+
+.more__picto {
 
 }
 
 .more__title {
   font-size: 10px;
   vertical-align: text-top;
-  margin-left: 1vw;
+  margin-left: 0.8vw;
   vertical-align: center;
 }
