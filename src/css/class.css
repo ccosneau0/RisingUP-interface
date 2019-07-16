@@ -35,11 +35,11 @@
 }
 
 .wallet {
-  width: 25vw;
+  width: 24vw;
   height: 55vh;
   border-radius: 6px;
   overflow: hidden;
-  
+
 }
 
 .wallet--one {
@@ -55,7 +55,7 @@
 }
 
 .wallet__picture {
-  width: 25vw;
+  width: 24vw;
   height: 20vh;
 }
 
@@ -83,12 +83,12 @@
 .content__title {
   margin-left: 2vw;
   margin-top: 1.5vh;
-  font-size: 14px;
+  font-size: 0.972vw;
   color: rgba(248, 248, 248, 1);
 }
 
 .content__text {
-  font-size: 10px;
+  font-size: 0.694vw;
   margin-left: 2vw;
   margin-top: 1.5vh;
   line-height: 1.2rem;
@@ -99,19 +99,13 @@
 .content__author {
   margin-left: 2vw;
   margin-top: 1.6vh;
-  font-size: 10px;
+  font-size: 0.694vw;
   color: rgba(248, 248, 248, 0.7);
-}
-
-.content__like {
-  background-color: transparent;
-  width: 4vw;
-  margin-left: 2vw;
-  margin-top: -0.5vh;
 }
 
 .wallet__button {
   margin-left: 2vw;
+  margin-top: 2.5vh;
   background-color: rgba(255, 255, 255, 0.3);
   border: none;
   width: 12vw;
@@ -127,7 +121,7 @@
   height: 3.8vh;
   width: 9vw;
   color: white;
-  margin-left: 84.75vw;
+  margin-left: 84vw;
   margin-top: 2vh;
   font-size: 14px;
 }

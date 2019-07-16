@@ -1,4 +1,8 @@
+@import './fonts.css';
+
+
 .body__apprentissage {
+	font-family: 'Circular', sans-serif;
 	background: url("../../assets/img/background.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
@@ -7,56 +11,94 @@
 /* header */
 
 .header {
-	display: flex;
-	height: 7.5vh;
+  display: flex;
+  height: 7.5vh;
 	background-color: white;
 }
 
 .header__logo {
-	width: 3.5vw;
-	height: 2.335vw;
-	margin-top: 1.15vw;
+  width: 3.3vw;
+  height: 2.335vw;
+  margin-top: 1.15vw;
 }
 
 .header__dashboard {
-	width: 10.842vw;
-	display: flex;
-	margin-left: 7.339vw;
+  width: 10.842vw;
+  display: flex;
+  margin-left: 7.339vw;
+  font-size: 12px;
 }
 
 .dashboard {
-	margin: auto;
+  margin: auto;
+  font-weight: bold;
 }
 
 .header__progress {
-	width: 18.849vw;
-	display: flex;
-	background-color: #434559;
-	color: white;
+  width: 18.849vw;
+  display: flex;
+  font-size: 12px;
 }
 
 .progress {
-	margin: auto;
+  margin: auto;
+}
+
+.is-active {
+  background-color: #434559;
+  color: white;
+}
+
+.circular--lighter {
+	font-weight: lighter;
+	font-size: 10px;
 }
 
 .header__account {
-	margin-left: 25.021vw;
-	display: flex;
+  margin-left: 34vw;
+  display: flex;
 }
 
 .account__picture {
-	width: 1.251vw;
-	height: 2.314vh;
-	margin: auto;
+  height: 3.6vh;
+  width: 3vw;
+  margin: auto;
+  -moz-box-shadow: 0px 2px 7px #979797;
+  -webkit-box-shadow: 0px 2px 7px #979797;
+  box-shadow: 0px 2px 7px #979797;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .account__name {
-	margin: auto;
-	margin-left: 0.834vw;
+  margin: auto;
+  margin-left: 0.834vw;
+  font-size: 12px;
+}
+
+.account__picto {
+  margin: auto;
+  width: 0.7vw;
+  margin-left: 1vw;
 }
 
 .margin-left {
 	margin-left: 7vw;
+}
+
+.account__info {
+  position: absolute;
+  top: 6.5vh;
+  right: 5.5vw;
+  -moz-box-shadow: 0px 0px 15px #979797;
+  -webkit-box-shadow: 0px 0px 15px #979797;
+  box-shadow: 0px 0px 15px #979797;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.account--none {
+  display: none;
 }
 
 section {
@@ -131,10 +173,6 @@ section {
 	letter-spacing: 0.44px;
 }
 
-.text__modifier img {
-	margin-left: 15px;
-}
-
 .info__name {
 	font-size: 18px;
 	font-weight: bold;
@@ -152,7 +190,10 @@ section {
 .info__logo {
 	width: 12vw;
 	display: flex;
-	justify-content: space-between;
+}
+
+.badges--margin {
+	margin-left: 1vw;
 }
 
 .training {
@@ -214,6 +255,8 @@ section {
 .advancement__text img {
 	width: 30vw;
 	height: 1vw;
+	margin-top: .5vh;
+	margin-bottom: .5vh;
 }
 
 .inprogress__add {
@@ -389,6 +432,7 @@ section {
 	color: #3E3E3E;
 	font-size: 14px;
 	letter-spacing: 0.44px;
+	margin-left: 1vw;
 }
 
 .finished__advancement__text {
@@ -400,4 +444,9 @@ section {
 
 .finished__advancement__text img {
 	width: 4vw;
+}
+
+.text__picto {
+	width: 0.1vw;
+	margin-top: 0.2vh;
 }

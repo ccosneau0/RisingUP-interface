@@ -14,4 +14,4 @@ accountLink.addEventListener('click', function() {
   } else {
     accountInfo.classList.replace('account__info', 'account--none');
   }
-})
+});

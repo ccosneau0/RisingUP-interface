@@ -17,9 +17,9 @@
 .summary__content {
   width: 33vw;
   margin-left: 2vw;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
   color: rgba(248, 248, 248, 0.8);
-  font-size: 12px;
+  font-size: 0.833vw;
   line-height: 1.2rem;
 }
 
@@ -28,7 +28,7 @@
   border: none;
   width: 12vw;
   height: 4vh;
-  margin-top: 2vh;
+  margin-top: 4vh;
   margin-left: 2vw;
   border-radius: 1px;
   color: white;
@@ -46,9 +46,9 @@
 }
 
 .skills__text {
-  font-size: 14px;
+  font-size: 0.972vw;
   margin-top: 2.4vh;
-  line-height: 2rem;
+  line-height: 4vh;
   width: 46vw;
   color: rgba(248, 248, 248, 0.8);
 }
