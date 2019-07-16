@@ -1,5 +1,8 @@
 @import './fonts.css';
 
+* {
+	box-sizing: border-box;
+}
 
 .body__apprentissage {
 	font-family: 'Circular', sans-serif;
@@ -103,7 +106,7 @@
 
 section {
 	color: white;
-	margin-left: 8%;
+	margin-left: 6.5%;
 }
 
 .title h2 {
@@ -125,7 +128,7 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	width: 85vw;
+	width: 88vw;
 	border-radius: 6px;
 	margin-bottom: 4%;
 }
@@ -173,6 +176,14 @@ section {
 	letter-spacing: 0.44px;
 }
 
+.modifier__title {
+	margin-top: 0.4vh !important;
+}
+
+.modifier__picto {
+	margin-left: .7vw;
+}
+
 .info__name {
 	font-size: 18px;
 	font-weight: bold;
@@ -198,8 +209,9 @@ section {
 
 .training {
 	display: flex;
-	width: 85vw;
+	width: 88vw;
 	margin-top: 3%;
+	justify-content: space-between;
 }
 
 .training h2 {
@@ -207,10 +219,6 @@ section {
 	letter-spacing: 0.52px;
 	margin-bottom: 8%;
 	width: 50%;
-}
-
-.training__inprogress {
-	margin-right: 3%;
 }
 
 .inprogress__advancement {
@@ -262,7 +270,7 @@ section {
 .inprogress__add {
 	background-color: #434559;
 	width: 33.4vw;
-	height: 8vw;
+	height: 8.5vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -289,6 +297,7 @@ section {
 }
 
 .text__container p {
+	margin-top: 0.42vh;
 	margin-right: 10px;
 	color: #434559;
 }
@@ -297,12 +306,9 @@ section {
 	width: 2vw;
 }
 
-.training__purchased {
-	margin-right: 3%;
-}
-
 .purchased__title {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 3%;
 }
@@ -310,8 +316,7 @@ section {
 .button__carousel {
 	width: 9.5vw;
 	display: flex;
-	justify-content: space-between;
-	margin-top: 5px;
+	margin-top: -4.5vh;
 }
 
 .button__one {
@@ -343,7 +348,7 @@ section {
 	mix-blend-mode: normal;
 	box-shadow: 0px 16px 47px rgba(0, 0, 0, 0.15);
 	border-radius: 6px;
-	width: 23.55vw;
+	width: 24.55vw;
 	height: 20vw;
 	display: flex;
 	flex-direction: column;
@@ -365,31 +370,39 @@ section {
 	justify-content: space-evenly;
 }
 
+.text__concentration {
+	background-color: rgba(255, 255, 255, 0.1);
+  width: 9vw;
+  height: 2vh;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  border-radius: 15px;
+  border: solid 0.5px rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
 .text__concentration span {
-	text-transform: uppercase;
 	font-size: 10px;
 	letter-spacing: 0.37px;
-	background-color: rgb(255, 213, 17, 14.89%);
-	border-radius: 18.5px;
-	display: inline-block;
-	padding: 1px 3%;
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .text__discover {
-	font-size: 14px;
+	font-size: 0.972vw;
 	font-weight: bold;
 	letter-spacing: 0.52px;
 }
 
 .text__paragraph {
-	font-size: 10px;
+	font-size: 0.694vw;
 	letter-spacing: 0.37px;
 	font-weight: lighter;
 	line-height: 180%;
 }
 
 .text__create {
-	font-size: 10px;
+	font-size: 0.694vw;
 	font-weight: lighter;
 	letter-spacing: 0.37px;
 	color: #A4A4A4;
@@ -447,6 +460,7 @@ section {
 }
 
 .text__picto {
-	width: 0.1vw;
-	margin-top: 0.2vh;
+	width: 0.972vw !important;
+	height: 1vh !important;
+
 }
