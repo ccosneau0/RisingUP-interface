@@ -61,6 +61,12 @@
 }
 
 .profil__badge {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.badge {
   margin-top: 2vh;
   margin-right: 0.5vw;
 }
@@ -79,6 +85,13 @@
   margin-left: 0.7vw;
 }
 
+.picture__edit {
+  position: absolute;
+  width: 3vw;
+  left: 18vw;
+  top: 27vh;
+}
+
 .apprenticeship__training {
   width: 86vw;
   height: 48vh;
@@ -86,7 +99,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: space-between;
 }
 
 .training__inprogress {
@@ -129,7 +141,7 @@
   font-size:10px;
   letter-spacing: 1.1px;
   margin-left: 2vw;
-  margin-top: 1vh;
+  margin-top: 1.5vh;
 }
 
 .level__indicator {
@@ -178,4 +190,108 @@
   font-size: 14px;
   font-weight: bold;
   margin-top: 1vh;
+}
+
+.training__purchased {
+  display: flex;
+  width: 24vw;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.purchased__title {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.purchased__lesson {
+  height: 38vh;
+  width: 24vw;
+  background-image: linear-gradient(-25deg, rgba(0, 230, 123, 0.7), rgba(3, 101, 15, 0.7));
+  border-radius: 6px;
+  margin-top: 3vh;
+}
+
+.lesson__image {
+  width: 24vw;
+}
+
+.lesson__tag {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  border-radius: 15px;
+  border: solid 0.5px rgba(255, 255, 255, 0.3);
+  color: white;
+  width: 8vw;
+  height: 2.4vh;
+  margin-left: 1.5vw;
+  margin-top: 1vh;
+}
+
+.tag__text {
+  font-size: 0.694vw;
+  font-weight: lighter;
+  margin: auto;
+}
+
+.lesson__titre {
+  font-size: 0.972vw;
+  font-weight: bold;
+  color: white;
+  margin-left: 1.5vw;
+  margin-top: 1.2vh;
+}
+
+.lesson__text {
+  font-size: 0.694vw;
+  color: white;
+  font-weight: lighter;
+  margin-left: 1.5vw;
+  margin-top: 0.9vh;
+  line-height: 1.1rem;
+  width: 21vw;
+}
+
+.lesson__author {
+  font-size: 0.694vw;
+  color: #BCBCBC;
+  margin-left: 1.5vw;
+  margin-top: 1vh;
+}
+
+.finished__title {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.training__finished {
+  width: 20vw;
+}
+
+.finished__lesson {
+  height: 15vh;
+  width: 20vw;
+  margin-top: 3vh;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.lesson__img {
+  width: 20vw;
+}
+
+.lesson__para {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 1.8vh;
+  margin-left: 2.9vh;
+  width: 15vw;
+  float: left;
+}
+
+.lesson__picto {
+  width: 1.5vw;
+  margin-top: 1.3vh;
 }
