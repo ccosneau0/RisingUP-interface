@@ -1,0 +1,181 @@
+.apprenticeship {
+  width: 100vw;
+  height: 92.5vh;
+  background-image: url('../../assets/img/background.png');
+  background-size: 100vw 92.5vh;
+}
+
+.apprenticeship__title {
+  font-weight: bold;
+  font-size: 34px;
+  color: white;
+  padding-top: 4vh;
+}
+
+.apprenticeship__content {
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+  margin-top: 2.5vh;
+}
+
+.apprenticeship__profil {
+  width: 86vw;
+  height: 20vh;
+  background-image: url('../../assets/img/background-profil.png');
+  background-size: 86vw 20vh;
+  margin-top: 5vh;
+  border-radius: 6px;
+  hoverflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.profil__background {
+  background-color: white;
+  height: 15vh;
+  width: 10vw;
+  border-radius: 5px;
+  margin-left: 3vw;
+  hoverflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  float: left;
+}
+
+.profil__info {
+  color: white;
+  margin-left: 1.5vw;
+  float: left;
+}
+
+.profil__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profil__mail {
+  font-size: 10px;
+  margin-top: 0.8vh;
+}
+
+.profil__badge {
+  margin-top: 2vh;
+  margin-right: 0.5vw;
+}
+
+.changes {
+  color: #848484;
+  font-size: 12px;
+  margin-left: 50vw;
+  margin-top: 14vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.changes__picture {
+  margin-left: 0.7vw;
+}
+
+.apprenticeship__training {
+  width: 86vw;
+  height: 48vh;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.training__inprogress {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+
+.inprogress__title {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.inprogress__lesson {
+  width: 30vw;
+  height: 20vh;
+  border-radius: 6px;
+  margin-top: 3vh;
+  background-color: white;
+}
+
+.lesson__picture {
+  border-radius: 6px 6px 0px 0px;
+  width: 30vw;
+}
+
+.lesson__title {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  width: 25vw;
+  position: absolute;
+  top: 57vh;
+  left: 9vw;
+}
+
+.lesson__level {
+  font-weight: lighter;
+  font-size:10px;
+  letter-spacing: 1.1px;
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+.level__indicator {
+  width: 26vw;
+  height: 2vh;
+  border-radius: 2px;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  background-color: #DDDDDD;
+}
+
+.lesson__start {
+  font-weight: lighter;
+  font-size: 10px;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  float: left;
+}
+
+.start__arrow {
+  width: 1.3vw;
+  margin-top: 1.9vh;
+  margin-left: .7vw;
+}
+
+.inprogress__add {
+  width: 30vw;
+  height: 15vh;
+  border: solid 1px white;
+  border-radius: 6px;
+  margin-top: 3vh;
+  background-color: #434559;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add__picto {
+  width: 2vw;
+
+}
+
+.add__text {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 1vh;
+}

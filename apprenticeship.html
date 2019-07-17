@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <title>Rising Up</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="header__logo margin-left" src="./assets/img/logo_RisingUp.png" alt="logo Rising Up">
+    <div class="header__dashboard is-active">
+      <h3 class="dashboard">Dashboard</h3>
+    </div>
+    <div class="header__progress">
+      <h3 class="progress">Mon plan d'apprentissage</h3>
+    </div>
+    <div class="header__account">
+      <div class="account__picture"></div>
+      <!-- <img class="account__picture" src="./assets/img/avatar_logIn.png" alt="photo de profil du compte"> -->
+      <p class="account__name">Hicham Abboub</p>
+      <img src="assets/img/triangle_black.png" alt="triangle noir" class="account__picto">
+      <svg id="account__info" class="account--none" width="179" height="92" viewBox="0 0 179 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M0 9.80038C0 6.48667 2.68629 3.80039 6 3.80039H143.86C144.787 3.80039 145.702 3.58563 146.532 3.17297L150.213 1.34289C151.912 0.498009 153.911 0.506853 155.602 1.36674L159.109 3.14912C159.951 3.57724 160.883 3.80039 161.828 3.80039H173C176.314 3.80039 179 6.48668 179 9.80039V86C179 89.3137 176.314 92 173 92H6C2.68629 92 0 89.3137 0 86L0 9.80038Z"
+          fill="white" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M144.529 22.7979C144.317 22.7979 144.071 22.9564 144.047 23.1672C143.983 23.7353 143.984 24.3089 144.05 24.8728C144.076 25.0924 144.274 25.258 144.489 25.2405L144.582 25.2381C145.245 25.2381 145.861 25.6466 146.116 26.2548C146.388 26.901 146.218 27.6531 145.696 28.1258C145.532 28.274 145.513 28.524 145.651 28.6958C146.008 29.1401 146.416 29.5436 146.865 29.8954C147.037 30.0289 147.282 30.0094 147.431 29.8481C147.877 29.3579 148.671 29.1734 149.288 29.4255C149.927 29.6869 150.34 30.3298 150.314 31.0249C150.307 31.2431 150.468 31.4304 150.686 31.4544C150.96 31.4849 151.235 31.5 151.509 31.5C151.798 31.5 152.086 31.4833 152.373 31.4499C152.592 31.4247 152.754 31.2325 152.741 31.0118C152.701 30.309 153.109 29.6547 153.756 29.3839C154.374 29.1245 155.177 29.3082 155.626 29.8045C155.775 29.9687 156.025 29.9882 156.196 29.8497C156.635 29.4971 157.035 29.0932 157.383 28.6493C157.518 28.478 157.498 28.2316 157.337 28.0842C156.824 27.6139 156.656 26.8689 156.918 26.2296C157.181 25.5895 157.808 25.1852 158.461 25.2019C158.676 25.2019 158.929 25.0448 158.953 24.8331C159.017 24.265 159.016 23.6909 158.95 23.1274C158.924 22.9112 158.754 22.7516 158.517 22.7592C157.784 22.7592 157.144 22.3619 156.885 21.7454C156.613 21.0988 156.782 20.3468 157.304 19.8741C157.467 19.7259 157.487 19.4763 157.349 19.304C156.994 18.861 156.585 18.4572 156.135 18.1045C155.964 17.9706 155.717 17.9905 155.569 18.1521C155.123 18.6428 154.326 18.8252 153.713 18.5748C153.073 18.3129 152.661 17.6701 152.686 16.9746C152.693 16.7568 152.532 16.5695 152.314 16.5455C151.752 16.4831 151.187 16.4851 150.627 16.5499C150.407 16.5756 150.246 16.7674 150.259 16.988C150.299 17.6904 149.892 18.3447 149.246 18.6163C148.625 18.8752 147.822 18.6912 147.375 18.1961C147.227 18.032 146.976 18.0129 146.805 18.1501C146.369 18.4998 145.969 18.9033 145.617 19.35C145.482 19.5214 145.501 19.7682 145.663 19.9156C146.175 20.3854 146.343 21.131 146.082 21.7702C145.826 22.3943 145.216 22.7979 144.529 22.7979ZM153.99 24.0159C153.99 25.3954 152.868 26.5175 151.488 26.5175C150.109 26.5175 148.986 25.3954 148.986 24.0159C148.986 22.6364 150.109 21.5142 151.488 21.5142C152.868 21.5142 153.99 22.6364 153.99 24.0159Z"
+          fill="#2A98C1" />
+        <path opacity="0.332543" d="M15.4287 46H159.5" stroke="#979797" stroke-width="0.5" stroke-linecap="square" />
+        <path
+          d="M153.375 68.6274C153.029 68.6274 152.75 68.9085 152.75 69.2548V71.7647C152.75 72.1104 152.47 72.3921 152.125 72.3921H150.25V62.9803C150.25 62.4445 149.91 61.9658 149.399 61.7876L149.214 61.7254H152.125C152.47 61.7254 152.75 62.0071 152.75 62.3529V64.2353C152.75 64.5816 153.029 64.8627 153.375 64.8627C153.721 64.8627 154 64.5816 154 64.2353V62.3529C154 61.3151 153.159 60.4706 152.125 60.4706H145.406C145.382 60.4706 145.363 60.4813 145.339 60.4844C145.309 60.4818 145.281 60.4706 145.25 60.4706C144.561 60.4706 144 61.0333 144 61.7254V73.0195C144 73.5554 144.34 74.0341 144.851 74.2123L148.613 75.471C148.74 75.5106 148.867 75.5294 149 75.5294C149.689 75.5294 150.25 74.9666 150.25 74.2745V73.6471H152.125C153.159 73.6471 154 72.8025 154 71.7647V69.2548C154 68.9085 153.721 68.6274 153.375 68.6274Z"
+          fill="#2A98C1" />
+        <path
+          d="M158.813 67.0637L156.268 64.4285C156.086 64.2401 155.812 64.1834 155.574 64.2854C155.337 64.3876 155.182 64.628 155.182 64.8942V66.8706H152.636C152.285 66.8706 152 67.1657 152 67.5294C152 67.8931 152.285 68.1882 152.636 68.1882H155.182V70.1646C155.182 70.4308 155.337 70.6712 155.574 70.7734C155.812 70.8754 156.086 70.8187 156.268 70.6304L158.813 67.9952C159.062 67.7376 159.062 67.3212 158.813 67.0637Z"
+          fill="#2A98C1" />
+      </svg>
+    </div>
+  </header>
+
+  <main class="apprenticeship">
+    <h1 class="margin-left apprenticeship__title">Mon plan d'apprentissage</h1>
+    <p class="margin-left apprenticeship__content">modifier votre profil et effectuez le suivi de vos formations.</p>
+    <div class="apprenticeship__profil margin-left">
+      <div class="profil__background">
+        <img src="assets/img/avatar.png" alt="" class="profil__picture">
+      </div>
+      <div class="profil__info">
+        <h5 class="profil__name">Hicham Abboub</h5>
+        <p class="profil__mail">Hichamabboub@risinguparis.com</p>
+        <img class="profil__badge" src="assets/img/Group13.png" alt="">
+        <img class="profil__badge" src="assets/img/Group14.png" alt="">
+        <img class="profil__badge" src="assets/img/Group15.png" alt="">
+      </div>
+      <div class="changes">
+        <p class="changes__text">Modifier le profil</p>
+        <img class="changes__picture" src="assets/img/pen.png" alt="pictogramme stylo">
+      </div>
+    </div>
+    <section class="apprenticeship__training margin-left">
+      <div class="training__inprogress">
+        <h1 class="inprogress__title">Formations en cours</h1>
+        <div class="inprogress__lesson">
+          <img src="assets/img/background-inprogress.png" alt="" class="lesson__picture">
+          <p class="lesson__title">Découverte des neurosciences cognitives et des enjeux dans nos pratiques managériales</p>
+          <p class="lesson__level">Progression 44%</p>
+          <div class="level__indicator"></div>
+          <p class="lesson__start">Reprendre le cours</p>
+          <img src="assets/img/Arrow.png" alt="fleche" class="start__arrow">
+        </div>
+        <div class="inprogress__add">
+          <img class="add__picto" src="assets/img/plus-button_white.png" alt="">
+          <p class="add__text">Ajouter une formation</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
